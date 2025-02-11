@@ -39,5 +39,3 @@ async function mailToUser(to, userName, subject) {
 module.exports = {
     mailToUser
 }
-
-// mailToUser('deepak.yadav@elookinto.org', 'deepak', 'subject');
