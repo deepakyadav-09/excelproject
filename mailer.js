@@ -22,7 +22,7 @@ async function mailToUser(to, userName, subject) {
     config.use('compile', hbs(hbsData))
     const mailDetail = {
         from: 'Deepak Yadav <dy627511@gmail.com>',
-        to,
+     to,
         subject,
         template: 'insertText',
         context: {
